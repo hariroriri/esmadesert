@@ -6,7 +6,7 @@ const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <header className="bg-black shadow-md border-b border-gray-200">
+        <header className="bg-black shadow-md border-b border-black">
             <div className="container mx-auto px-4 py-4 flex items-center justify-between">
 
                 {/* Logo Image */}
@@ -15,7 +15,7 @@ const Header = () => {
                 </a>
 
                 {/* Desktop Links */}
-                <nav className="hidden md:flex space-x-8 font-body text-lg font-poppins">
+                <nav className="hidden md:flex space-x-8 text-lg font-monts">
                     <a href="#home" className="text-white hover:text-yellow transition-colors duration-200">Home</a>
                     <a href="#products" className="text-white hover:text-yellow transition-colors duration-200">Products</a>
                     <a href="#about" className="text-white hover:text-yellow transition-colors duration-200">About Us</a>

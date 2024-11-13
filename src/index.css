@@ -20,3 +20,9 @@
     animation: fadeIn 1s ease-in-out;
   }
   
+
+
+ /* Global CSS or custom Tailwind configuration */
+.h-screen-minus-header {
+  height: calc(100vh - 4rem); 
+} 

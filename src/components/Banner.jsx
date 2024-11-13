@@ -12,7 +12,7 @@ const Banner = ({ message }) => {
   if (!isVisible) return null;
 
   return (
-    <div className="bg-yellow text-black font-poppins text-lg text-center py-5 relative">
+    <div className="bg-yellow text-black font-monts text-lg text-center py-5 relative">
       <p className="font-semibold fade-in">{message}</p>
       
       {/* Close Button */}
